@@ -7,6 +7,8 @@
 
 .wrapper {
   margin: 93px 160px 0 160px;
+  min-height: 2461px;
+  min-width: 1120px;
 }
 
 body {
@@ -17,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1120px;
 }
 
 .header-nav {
@@ -55,7 +58,12 @@ header {
   color: #606060;
 }
 
+main {
+  max-width: 1120px;
+}
+
 .main {
+  max-width: 1120px;
   margin-top: 128px;
 }
 
@@ -63,4 +71,88 @@ header {
   background: url(./assets/↓.svg) no-repeat;
   width: 34px;
   height: 40px;
+  margin: 0 0 83px 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  height: 1647px;
+}
+
+.project {
+  display: flex;
+  height: 364px;
+  margin: 0 0 108px 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 0 128px 0 0;
+}
+
+.name {
+  font: 500 24px 'DM Sans';
+  margin: 0 0 25px 0;
+}
+
+.description {
+  width: 364px;
+  font: 400 22px 'DM Sans';
+  margin: 0 0 18px 0;
+}
+
+.languages {
+  width: 364px;
+  height: 65px;
+  font: 400 22px 'DM Sans';
+  margin: 0 0 150px 0;
+  color: #606060;
+}
+
+.shots {
+  font: 500 22px 'DM Sans';
+  text-decoration: underline;
+}
+
+.photo {
+  background: #606060;
+  width: 640px;
+  height: 364px;
+}
+
+.projects:last-child {
+  margin: 0 0 128px 0;
+}
+
+.line {
+  border: 1px solid #181717;
+  width: 1115px;
+  margin: 0 0 108px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font: 500 22px 'DM Sans';
+  max-width: 1120px;
+}
+
+footer .footer-name {
+  color: #2429AF;
+}
+
+.links {
+  display: flex;
+  margin: 0 60px 0 0;
+}
+
+.links p {
+  margin: 0 32px 0 0;
+}
+
+.links p:last-child {
+  margin: 0;
 }
