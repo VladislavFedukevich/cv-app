@@ -137,7 +137,6 @@ main {
 .answer {
   display: flex;
   max-width: 390px;
-  min-height: 71px;
   font: 400 32px "DM Sans";
 }
 
@@ -177,4 +176,23 @@ footer .footer-name {
 
 .links a:last-child {
   margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .avatar {
+    display: none;
+  }
+
+  .wrapper {
+    margin: 60px;
+    min-width: 600px;
+  }
+
+  .contact p {
+    font: 400 18px "Inter";
+  }
+
+  .arrow {
+    display: none;
+  }
 }
